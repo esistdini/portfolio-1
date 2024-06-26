@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.first
+{
+    height: 100vh;
+    background-color: #e4f9f5;;
+}
+
+.cldr
+{
+    padding-right: 150px;
+    padding-top: 100px;
+    float: right;
+}
+
+.cldl
+{
+    float: left;
+    padding-left: 150px;
+}
+.mountiaintop
+{
+    position: sticky;
+    width: 420px;
+    padding-left: 240px;
+}
+h1
+{
+    color: #66bfbf;
+    font-size: 3.625rem;
+    font-family: "Sacramento",cursive;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.two
+{
+    height: 100vh;
+    background-color: #eaf6f6;
+}
+
+.myimg
+{
+    width: 220px;
+    border-radius: 50%;
+    position: relative;
+    left: 600px;
+    top: 80px;
+}
+.two-intro
+{
+    position: relative;
+    text-align: center;
+    top: 150px;
+}
+
+@media screen and (max-width:1350px){
+    *
+    {
+        display: none;
+    }
+    
+}
